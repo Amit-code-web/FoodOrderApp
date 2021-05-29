@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        style="@style/mytheme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/restaurant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4CAF50"
+            android:onClick="res"
+            android:paddingLeft="26dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="Restaurants"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/dish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DCE775"
+            android:onClick="dis"
+            android:paddingLeft="26dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="Dishes"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/snackes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF7043"
+            android:onClick="snack"
+            android:paddingLeft="26dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="Snackes"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/drinks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D7CCC8"
+            android:onClick="drink"
+            android:paddingLeft="26dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="Drinks"
+            android:textSize="20sp">
+
+        </TextView>
+
+    </LinearLayout>
+</ScrollView>
